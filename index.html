@@ -110,7 +110,6 @@
       </div>
     </div>
     <script>
-      // $('input#buscar').quicksearch('table#tabela tbody tr');
       Vue.createApp({
         data() {
           return {
@@ -127,7 +126,7 @@
               { nome: "Maria Silva", telefone: "(11) 99224-2759" },
               { nome: "Joao Silva", telefone: "(99) 99224-2759" },
               { nome: "Jose Silva", telefone: "(99) 99224-2759" },
-              { nome: "Merda Dura Silva", telefone: "(11) 99224-2759" },
+              { nome: "Madalena Dura Silva", telefone: "(11) 99224-2759" },
 
             ],
           }
@@ -167,7 +166,6 @@
               console.log(str.replace(/[^a-z0-9]/gi, ''));
               this.dados[index] = { nome: this.nome, telefone: this.maskPhone(this.fone) }
             } else {
-              // const dd = this.telefone.replace(/^(\d\d).*/, "($1)")
               if (condicao) {
                 this.dados.push({ nome: this.nome, telefone: this.maskPhone(this.fone) })
                 // TODO: Mensagen de sucesso
