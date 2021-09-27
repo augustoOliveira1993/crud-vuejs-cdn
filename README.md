@@ -2,28 +2,30 @@
 
 Todas as operações de contatos
 
-[x] Criar Contato
-[x] Alterar Contato
-[x] Deletar Contato
-[x] Buscar Contato por nome
-[x] DD (11) Marcado em Azul
+[![versão][1.0.0]][1]
+
+- [x] Criar Contato
+- [x] Alterar Contato
+- [x] Deletar Contato
+- [x] Buscar Contato por nome
+- [x] DD (11) Marcado em Azul
 
 ## Tela Inicial
 
-![alt text](img/tela-principal.png)
+![init](img/tela-principal.png)
 
 ## Criar Contato
 
-![alt text](img/criar-contato.png)
+![created](img/criar-contato.png)
 
 ## Atualizar Contato
 
-![alt text](img/atualiza-contato.png)
+![updated](img/atualiza-contato.png)
 
 ## Formatação de Telefone
 
-![alt text](img/formatacao.png)
+![formatacao](img/formatacao-telefone.png)
 
 ## Buscar Contato por nome
 
-![alt text](img/buscar-nome.png)
+![search](img/buscar-nome.png)
